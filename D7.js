@@ -79,6 +79,13 @@ console.log(incremento([1, 2, 3, 4, 5], 10))
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
+const lunghezze = array => {
+  return array.map(index => index.length)
+}
+
+
+console.log(lunghezze(["ciao", "sono", "Antonio"]))
+
 /* ESERCIZIO 9
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
